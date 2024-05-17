@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "short_name": "Blue meds",
+    "name": "Meds what blue colour today?",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -15,5 +15,8 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "display": "standalone"
+    "display": "standalone",
+    "id": "/?source=pwa",
+    "start_url": "/?source=pwa",
+    "scope": "/"
 }
