@@ -10,6 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: large;
 }
 #main {
     display: flex;
@@ -29,4 +30,5 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: large;
 }

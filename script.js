@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     // Set yesterdays color
     const previousDay = days[previousDayNum]
     before.style.background = previousDay.color
-    yesterdayText.innerHTML = `${previousDay.name}`
+    yesterdayText.innerHTML = `Yesterday was ${previousDay.name}`
 
     // Set todays color
     main.style.background = day.color;
@@ -43,5 +43,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
     // Set tomorrows color
     const nextDay = days[nextDayNum]
     next.style.background = nextDay.color
-    tomorrowText.innerHTML = `${nextDay.name}`
+    tomorrowText.innerHTML = `Tomorrow is ${nextDay.name}`
   });
