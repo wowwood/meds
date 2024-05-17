@@ -1,0 +1,17 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content h1
+{width: 100%}
